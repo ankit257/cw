@@ -1,0 +1,83 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html, body {
+	background:#fff;
+	font-size:1.1rem;
+	font-family:'Quicksand', sans-serif;
+	height: 100%;
+	color: #555;
+}
+.point{
+	cursor: pointer;
+}
+@keyframes strikeitem {
+	to { width:calc(100% + 1rem); }
+}
+#main_vid_wrapper{
+	width: 100%;
+	height: 100%;
+}
+#main_vid{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#main_text{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.3);
+}
+#main_text h1, #main_text h4{
+	color: #ddd;
+	font-weight: 600;
+	position: relative;
+	top: 30%;
+}
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+.what-we-do h3{
+	padding-right: 20px;
+	color: #eee;
+	font-weight: 800;
+}
+
+
+$grey: #ECEFF1;
+$orange: #FF5722;
+$white: #FFFFFF;
+$black: #263238;
+
+.carousel-dots {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+  .dot {
+    margin: 0 5px;
+    list-style-type: none;
+    color: $black;
+    cursor: pointer;
+    transition: color 1s ease;
+    
+    &.active {
+      color: $orange;
+    }
+  }
+}
+.intro h2{
+	font-weight:800;
+}
